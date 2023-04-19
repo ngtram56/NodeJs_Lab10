@@ -1,0 +1,31 @@
+.bg-custom {
+    background-color: #FFE5CA!important;
+}
+.bg-custom-2 {
+    background-color: #E74646!important;
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    object-fit: cover;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: none;
+    cursor: pointer;
+    z-index: 99;
+}
